@@ -1,4 +1,4 @@
-var React = require('react');
+﻿var React = require('react');
 var PropTypes = React.PropTypes;
 
 var AddPlant = React.createClass({
@@ -41,7 +41,7 @@ var AddPlant = React.createClass({
         var light = this.state.light.trim();
 
         //no validation
-       this.onServerSubmit({ name: name, temp: temp, humid: humid, water: water, care: care, light: light });        
+        this.onServerSubmit({ name: name, temp: temp, humid: humid, water: water, care: care, light: light });        
     },
     onServerSubmit: function (plant) {
         //var plants = this.state.data;
@@ -113,21 +113,21 @@ var AddPlant = React.createClass({
                           </button>
                         </span>
                       </div>
-                      {/*<div className="form-group input-group">
+        {/*<div className="form-group input-group">
                         <input id="power" type="text" className="form-control" placeholder="Power" value={this.state.power} onChange={this.onPowerChange}/>
                            <span className="input-group-addon">W</span>
                       </div>*/}
-                      <div className="form-group input-group">
-                        <input id="light" type="text" className="form-control" placeholder="Light Intensity" value={this.state.light} onChange={this.onLightChange}/>
-                        <span className="input-group-addon">lm</span>
-                      </div>
+        <div className="form-group input-group">
+          <input id="light" type="text" className="form-control" placeholder="Light Intensity" value={this.state.light} onChange={this.onLightChange}/>
+          <span className="input-group-addon">lm</span>
+        </div>
 
-                      {/*<div className="form-group">
+        {/*<div className="form-group">
                         <label>Upload Presets</label>
                         <input type="file" />
                       </div>*/}
-                    </form>
-                  </div>
+        </form>
+      </div>
         {/* /.col-lg-6 (nested) */}
         <div className="col-lg-6">
           <label>Environment Presets</label>
