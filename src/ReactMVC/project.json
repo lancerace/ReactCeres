@@ -31,7 +31,7 @@
     "React.Web": "3.0.0",
     "React.Web.Mvc4": "3.0.0",
     "System.Web.Optimization.React": "3.0.0",
-    "System.Xml.XDocument": "4.0.11"
+    "System.Xml.XDocument": "4.0.10"
   },
 
   "tools": {

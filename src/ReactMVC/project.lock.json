@@ -2590,16 +2590,13 @@
           "lib/net45/_._": {}
         }
       },
-      "System.Xml.XDocument/4.0.11": {
+      "System.Xml.XDocument/4.0.10": {
         "type": "package",
-        "frameworkAssemblies": [
-          "System.Xml.Linq"
-        ],
         "compile": {
-          "ref/net45/_._": {}
+          "ref/net46/_._": {}
         },
         "runtime": {
-          "lib/net45/_._": {}
+          "lib/net46/_._": {}
         }
       },
       "System.Xml.XmlDocument/4.0.1": {
@@ -7005,72 +7002,35 @@
         "ref/xamarinwatchos10/_._"
       ]
     },
-    "System.Xml.XDocument/4.0.11": {
-      "sha512": "qVjb3UiDNLOvDvM4rIav9pNsANtcQlQ/PDaKCnOwPEx/hHfYnknvDXLoMvQahSGmjJ9kO6hWBaMBZfwNmqtpAQ==",
+    "System.Xml.XDocument/4.0.10": {
+      "sha512": "+ej0g0INnXDjpS2tDJsLO7/BjyBzC+TeBXLeoGnvRrm4AuBH9PhBjjZ1IuKWOhCkxPkFognUOKhZHS2glIOlng==",
       "type": "package",
-      "path": "System.Xml.XDocument/4.0.11",
+      "path": "System.Xml.XDocument/4.0.10",
       "files": [
-        "System.Xml.XDocument.4.0.11.nupkg.sha512",
+        "System.Xml.XDocument.4.0.10.nupkg.sha512",
         "System.Xml.XDocument.nuspec",
-        "ThirdPartyNotices.txt",
-        "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
-        "lib/net45/_._",
-        "lib/netcore50/System.Xml.XDocument.dll",
-        "lib/netstandard1.3/System.Xml.XDocument.dll",
-        "lib/portable-net45+win8+wp8+wpa81/_._",
-        "lib/win8/_._",
-        "lib/wp80/_._",
-        "lib/wpa81/_._",
+        "lib/dotnet/System.Xml.XDocument.dll",
+        "lib/net46/_._",
         "lib/xamarinios10/_._",
         "lib/xamarinmac20/_._",
-        "lib/xamarintvos10/_._",
-        "lib/xamarinwatchos10/_._",
         "ref/MonoAndroid10/_._",
         "ref/MonoTouch10/_._",
-        "ref/net45/_._",
-        "ref/netcore50/System.Xml.XDocument.dll",
-        "ref/netcore50/System.Xml.XDocument.xml",
-        "ref/netcore50/de/System.Xml.XDocument.xml",
-        "ref/netcore50/es/System.Xml.XDocument.xml",
-        "ref/netcore50/fr/System.Xml.XDocument.xml",
-        "ref/netcore50/it/System.Xml.XDocument.xml",
-        "ref/netcore50/ja/System.Xml.XDocument.xml",
-        "ref/netcore50/ko/System.Xml.XDocument.xml",
-        "ref/netcore50/ru/System.Xml.XDocument.xml",
-        "ref/netcore50/zh-hans/System.Xml.XDocument.xml",
-        "ref/netcore50/zh-hant/System.Xml.XDocument.xml",
-        "ref/netstandard1.0/System.Xml.XDocument.dll",
-        "ref/netstandard1.0/System.Xml.XDocument.xml",
-        "ref/netstandard1.0/de/System.Xml.XDocument.xml",
-        "ref/netstandard1.0/es/System.Xml.XDocument.xml",
-        "ref/netstandard1.0/fr/System.Xml.XDocument.xml",
-        "ref/netstandard1.0/it/System.Xml.XDocument.xml",
-        "ref/netstandard1.0/ja/System.Xml.XDocument.xml",
-        "ref/netstandard1.0/ko/System.Xml.XDocument.xml",
-        "ref/netstandard1.0/ru/System.Xml.XDocument.xml",
-        "ref/netstandard1.0/zh-hans/System.Xml.XDocument.xml",
-        "ref/netstandard1.0/zh-hant/System.Xml.XDocument.xml",
-        "ref/netstandard1.3/System.Xml.XDocument.dll",
-        "ref/netstandard1.3/System.Xml.XDocument.xml",
-        "ref/netstandard1.3/de/System.Xml.XDocument.xml",
-        "ref/netstandard1.3/es/System.Xml.XDocument.xml",
-        "ref/netstandard1.3/fr/System.Xml.XDocument.xml",
-        "ref/netstandard1.3/it/System.Xml.XDocument.xml",
-        "ref/netstandard1.3/ja/System.Xml.XDocument.xml",
-        "ref/netstandard1.3/ko/System.Xml.XDocument.xml",
-        "ref/netstandard1.3/ru/System.Xml.XDocument.xml",
-        "ref/netstandard1.3/zh-hans/System.Xml.XDocument.xml",
-        "ref/netstandard1.3/zh-hant/System.Xml.XDocument.xml",
-        "ref/portable-net45+win8+wp8+wpa81/_._",
-        "ref/win8/_._",
-        "ref/wp80/_._",
-        "ref/wpa81/_._",
+        "ref/dotnet/System.Xml.XDocument.dll",
+        "ref/dotnet/System.Xml.XDocument.xml",
+        "ref/dotnet/de/System.Xml.XDocument.xml",
+        "ref/dotnet/es/System.Xml.XDocument.xml",
+        "ref/dotnet/fr/System.Xml.XDocument.xml",
+        "ref/dotnet/it/System.Xml.XDocument.xml",
+        "ref/dotnet/ja/System.Xml.XDocument.xml",
+        "ref/dotnet/ko/System.Xml.XDocument.xml",
+        "ref/dotnet/ru/System.Xml.XDocument.xml",
+        "ref/dotnet/zh-hans/System.Xml.XDocument.xml",
+        "ref/dotnet/zh-hant/System.Xml.XDocument.xml",
+        "ref/net46/_._",
         "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._",
-        "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinmac20/_._"
       ]
     },
     "System.Xml.XmlDocument/4.0.1": {
@@ -7250,7 +7210,7 @@
       "React.Web >= 3.0.0",
       "React.Web.Mvc4 >= 3.0.0",
       "System.Web.Optimization.React >= 3.0.0",
-      "System.Xml.XDocument >= 4.0.11",
+      "System.Xml.XDocument >= 4.0.10",
       "mongocsharpdriver >= 2.3.0"
     ],
     ".NETFramework,Version=v4.6": []

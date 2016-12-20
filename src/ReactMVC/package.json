@@ -5,7 +5,7 @@
   "main": "wwwroot/js/main.js",
   "scripts": {
     "watch": "watchify -x react -x jquery -x react-dom -x bootstrap ./src/main/resources/static/js/ViewAllArticles/main.js -o ./src/main/resources/static/js/ViewAllArticles/bundle.js -t [ babelify ]",
-    "build": "browserify ./wwwroot/js/main.js -o ./wwwroot/js/bundle.js -t [ babelify ]",
+    "build": "browserify ./wwwroot/js/main.jsx -o ./wwwroot/js/bundle.js -t [ babelify ]",
     "debug": "browserify -x ./src/main/resources/static/js/dependenciesBundle.js main.js -o ./src/main/resources/static/js/bundle.js -t [ babelify --presets [ es2015 react ] ] -d",
     "require": "browserify -r react -r react-dom -r jquery -r bootstrap -o ./src/main/resources/static/js/ViewAllArticles/dependenciesBundle.js"
   },
